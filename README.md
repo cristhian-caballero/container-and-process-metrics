@@ -62,8 +62,8 @@ The process exporter collects metrics about system processes.
 ## Configuration
 ### Grafana
 - **Dashboards:** Provisioned dashboards are located in dashboards.
-    - Example: [process-exporter-with-treemap.json](./grafana/provisioning/dashboards/process-exporter-with-treemap.json) provides a dashboard for the process exporter.
-- **Datasources:** Datasource configurations are located in [datasource.yml](./grafana/provisioning/datasources/datasource.yml).
+    - Example: [`process-exporter-with-treemap.json`](./grafana/provisioning/dashboards/process-exporter-with-treemap.json) provides a dashboard for the process exporter.
+- **Datasources:** Datasource configurations are located in [`datasource.yml`](./grafana/provisioning/datasources/datasource.yml).
 ### Prometheus
 - **Configuration:** The Prometheus configuration file is located at [`prometheus.yml`](./prometheus/prometheus.yml).
 ### Process Exporter
